@@ -28,7 +28,7 @@ macOS 메뉴바에 상주하는 **로컬 개발 환경 대시보드**.
 가장 빠른 방법 (Apple Silicon, Node 18+ 필요):
 
 ```bash
-npx devcockpit
+npx @min0504/dev-cockpit
 ```
 
 GitHub에서 최신 릴리즈를 내려받아 SHA-256 체크섬을 검증한 뒤 `Dev Cockpit.app`을 `/Applications`에 설치하고 실행합니다.

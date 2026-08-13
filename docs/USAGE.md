@@ -9,7 +9,7 @@ Everything you need to install, run and operate Dev Cockpit day to day.
 ### Via npm (Apple Silicon)
 
 ```bash
-npx devcockpit
+npx @min0504/dev-cockpit
 ```
 
 Downloads the latest release, verifies its SHA-256 checksum, installs `Dev Cockpit.app` into `/Applications` (or `~/Applications` if not writable) and launches it. Options: `--dir <path>` to choose the install directory, `--no-open` to skip launching.

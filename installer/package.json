@@ -1,5 +1,5 @@
 {
-  "name": "devcockpit",
+  "name": "@min0504/dev-cockpit",
   "version": "1.0.1",
   "description": "Installer for Dev Cockpit — an always-visible macOS menu bar dashboard for your local dev environment (ports, processes, projects, Docker, Git, health checks, one-click control)",
   "bin": {

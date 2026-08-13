@@ -6,7 +6,7 @@
  * verifies its SHA-256 checksum, extracts it (default: /Applications)
  * and launches it.
  *
- *   npx devcockpit [--dir <path>] [--no-open]
+ *   npx @min0504/dev-cockpit [--dir <path>] [--no-open]
  */
 
 const crypto = require("node:crypto");
@@ -37,7 +37,7 @@ function parseArgs(argv) {
     } else if (a === "--help" || a === "-h") {
       console.log(
         `Dev Cockpit installer v${APP_VERSION}\n\n` +
-          `Usage: npx devcockpit [options]\n\n` +
+          `Usage: npx @min0504/dev-cockpit [options]\n\n` +
           `Options:\n` +
           `  --dir <path>   Install directory (default: /Applications, falls back to ~/Applications)\n` +
           `  --no-open      Do not launch the app after installing\n` +

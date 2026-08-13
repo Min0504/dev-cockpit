@@ -34,7 +34,7 @@ Dev Cockpit watches listening ports, dev processes, Docker containers and Git st
 Quickest (Apple Silicon, requires Node 18+):
 
 ```bash
-npx devcockpit
+npx @min0504/dev-cockpit
 ```
 
 This downloads the latest release from GitHub, verifies its SHA-256 checksum, installs `Dev Cockpit.app` into `/Applications` and launches it.
