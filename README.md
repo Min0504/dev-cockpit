@@ -29,6 +29,10 @@ Dev Cockpit watches listening ports, dev processes, Docker containers and Git st
 - [Rust](https://rustup.rs) (stable), Node 20+ (with npm)
 - Docker features activate automatically when a Docker daemon (Docker Desktop, OrbStack, …) is running — the app works fine without one
 
+## Install
+
+Download the latest `Dev Cockpit.app` from [Releases](https://github.com/Min0504/dev-cockpit/releases) (Apple Silicon), move it to `/Applications` and launch it. The app is unsigned, so right-click → Open on first launch.
+
 ## Build & Run
 
 ```bash
