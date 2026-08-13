@@ -6,6 +6,14 @@ Dev Cockpit을 설치하고 매일 사용하는 데 필요한 모든 것.
 
 ## 설치
 
+### npm으로 설치 (Apple Silicon)
+
+```bash
+npx @minseokchae/dev-cockpit
+```
+
+최신 릴리즈를 내려받아 SHA-256 체크섬을 검증하고 `Dev Cockpit.app`을 `/Applications`(쓰기 불가 시 `~/Applications`)에 설치한 뒤 실행합니다. 옵션: `--dir <경로>`로 설치 위치 지정, `--no-open`으로 실행 생략.
+
 ### 소스에서 빌드
 
 ```bash

@@ -31,7 +31,15 @@ Dev Cockpit watches listening ports, dev processes, Docker containers and Git st
 
 ## Install
 
-Download the latest `Dev Cockpit.app` from [Releases](https://github.com/Min0504/dev-cockpit/releases) (Apple Silicon), move it to `/Applications` and launch it. The app is unsigned, so right-click → Open on first launch.
+Quickest (Apple Silicon, requires Node 18+):
+
+```bash
+npx @minseokchae/dev-cockpit
+```
+
+This downloads the latest release from GitHub, verifies its SHA-256 checksum, installs `Dev Cockpit.app` into `/Applications` and launches it.
+
+Manual: download `Dev Cockpit.app` from [Releases](https://github.com/Min0504/dev-cockpit/releases), move it to `/Applications` and launch it. The app is unsigned, so right-click → Open on first launch.
 
 ## Build & Run
 

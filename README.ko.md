@@ -25,7 +25,15 @@ macOS 메뉴바에 상주하는 **로컬 개발 환경 대시보드**.
 
 ## 설치
 
-[Releases](https://github.com/Min0504/dev-cockpit/releases)에서 최신 `Dev Cockpit.app`을 내려받아(Apple Silicon) `/Applications`로 옮기고 실행하세요. 서명되지 않은 앱이라 첫 실행은 우클릭 → 열기로 진행합니다.
+가장 빠른 방법 (Apple Silicon, Node 18+ 필요):
+
+```bash
+npx @minseokchae/dev-cockpit
+```
+
+GitHub에서 최신 릴리즈를 내려받아 SHA-256 체크섬을 검증한 뒤 `Dev Cockpit.app`을 `/Applications`에 설치하고 실행합니다.
+
+수동 설치: [Releases](https://github.com/Min0504/dev-cockpit/releases)에서 `Dev Cockpit.app`을 내려받아 `/Applications`로 옮기고 실행하세요. 서명되지 않은 앱이라 첫 실행은 우클릭 → 열기로 진행합니다.
 
 ## 실행 방법
 
