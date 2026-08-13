@@ -1,7 +1,7 @@
 {
   "name": "dev-cockpit",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dev Cockpit — always-visible local dev environment dashboard for macOS",
   "license": "MIT",
   "repository": {

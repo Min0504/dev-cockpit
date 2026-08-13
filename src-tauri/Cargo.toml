@@ -1,8 +1,8 @@
 [package]
 name = "dev-cockpit"
-version = "1.0.0"
+version = "1.0.1"
 description = "Always-visible macOS development environment dashboard"
-authors = ["minseokchae"]
+authors = ["Min0504"]
 edition = "2021"
 license = "MIT"
 

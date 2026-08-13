@@ -28,7 +28,7 @@ macOS 메뉴바에 상주하는 **로컬 개발 환경 대시보드**.
 가장 빠른 방법 (Apple Silicon, Node 18+ 필요):
 
 ```bash
-npx @minseokchae/dev-cockpit
+npx devcockpit
 ```
 
 GitHub에서 최신 릴리즈를 내려받아 SHA-256 체크섬을 검증한 뒤 `Dev Cockpit.app`을 `/Applications`에 설치하고 실행합니다.
@@ -81,7 +81,7 @@ npm run tauri build
 모든 설정은 앱 내 Settings에서 편집하며 아래 파일에 저장됩니다.
 
 ```
-~/Library/Application Support/com.minseokchae.devcockpit/config.json
+~/Library/Application Support/com.min0504.devcockpit/config.json
 ```
 
 - 프로젝트 루트 (기본: `~/Dev`, `~/Developer`, `~/Projects`, `~/Code`, `~/repos`, `~/workspace` 중 존재하는 폴더)

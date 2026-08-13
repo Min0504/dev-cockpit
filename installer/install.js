@@ -6,7 +6,7 @@
  * verifies its SHA-256 checksum, extracts it (default: /Applications)
  * and launches it.
  *
- *   npx @minseokchae/dev-cockpit [--dir <path>] [--no-open]
+ *   npx devcockpit [--dir <path>] [--no-open]
  */
 
 const crypto = require("node:crypto");
@@ -15,8 +15,8 @@ const os = require("node:os");
 const path = require("node:path");
 const { spawnSync } = require("node:child_process");
 
-const APP_VERSION = "1.0.0";
-const APP_SHA256 = "2f3fe62c87db9c69b37ff9f5492ebaa7f971597eea640b826c5e7e136554c434";
+const APP_VERSION = "1.0.1";
+const APP_SHA256 = "b28c6a27e974188b8dca7646900cfa993949bfe407506a2efa84002e7adcfa9a";
 const ZIP_NAME = `Dev-Cockpit-${APP_VERSION}-macos-aarch64.zip`;
 const URL = `https://github.com/Min0504/dev-cockpit/releases/download/v${APP_VERSION}/${ZIP_NAME}`;
 const APP_NAME = "Dev Cockpit.app";
@@ -37,7 +37,7 @@ function parseArgs(argv) {
     } else if (a === "--help" || a === "-h") {
       console.log(
         `Dev Cockpit installer v${APP_VERSION}\n\n` +
-          `Usage: npx @minseokchae/dev-cockpit [options]\n\n` +
+          `Usage: npx devcockpit [options]\n\n` +
           `Options:\n` +
           `  --dir <path>   Install directory (default: /Applications, falls back to ~/Applications)\n` +
           `  --no-open      Do not launch the app after installing\n` +

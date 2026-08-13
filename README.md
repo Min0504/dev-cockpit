@@ -34,7 +34,7 @@ Dev Cockpit watches listening ports, dev processes, Docker containers and Git st
 Quickest (Apple Silicon, requires Node 18+):
 
 ```bash
-npx @minseokchae/dev-cockpit
+npx devcockpit
 ```
 
 This downloads the latest release from GitHub, verifies its SHA-256 checksum, installs `Dev Cockpit.app` into `/Applications` and launches it.
@@ -79,7 +79,7 @@ Full guide: **[docs/USAGE.md](docs/USAGE.md)**
 Everything is editable from the in-app Settings view and stored at:
 
 ```
-~/Library/Application Support/com.minseokchae.devcockpit/config.json
+~/Library/Application Support/com.min0504.devcockpit/config.json
 ```
 
 - Project roots (defaults: `~/Dev`, `~/Developer`, `~/Projects`, `~/Code`, `~/repos`, `~/workspace` — whichever exist)

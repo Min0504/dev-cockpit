@@ -8,7 +8,7 @@ use std::path::PathBuf;
 pub fn config_dir() -> PathBuf {
     PathBuf::from(home_dir())
         .join("Library/Application Support")
-        .join("com.minseokchae.devcockpit")
+        .join("com.min0504.devcockpit")
 }
 
 pub fn config_path() -> PathBuf {

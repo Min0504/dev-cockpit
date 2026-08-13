@@ -9,7 +9,7 @@ Everything you need to install, run and operate Dev Cockpit day to day.
 ### Via npm (Apple Silicon)
 
 ```bash
-npx @minseokchae/dev-cockpit
+npx devcockpit
 ```
 
 Downloads the latest release, verifies its SHA-256 checksum, installs `Dev Cockpit.app` into `/Applications` (or `~/Applications` if not writable) and launches it. Options: `--dir <path>` to choose the install directory, `--no-open` to skip launching.
@@ -134,7 +134,7 @@ Open with the gear button in the panel header.
 All settings live in a single JSON file you can edit or back up:
 
 ```
-~/Library/Application Support/com.minseokchae.devcockpit/config.json
+~/Library/Application Support/com.min0504.devcockpit/config.json
 ```
 
 The app watches its own writes only; if you edit the file by hand, restart the app.
@@ -153,6 +153,6 @@ Right-click (or click) the tray icon:
 
 1. Quit Dev Cockpit (tray menu → Quit).
 2. Delete `Dev Cockpit.app`.
-3. Optionally remove the config: `~/Library/Application Support/com.minseokchae.devcockpit/`.
+3. Optionally remove the config: `~/Library/Application Support/com.min0504.devcockpit/`.
 
 No other files are written anywhere on the system.

@@ -9,7 +9,7 @@ Dev Cockpit을 설치하고 매일 사용하는 데 필요한 모든 것.
 ### npm으로 설치 (Apple Silicon)
 
 ```bash
-npx @minseokchae/dev-cockpit
+npx devcockpit
 ```
 
 최신 릴리즈를 내려받아 SHA-256 체크섬을 검증하고 `Dev Cockpit.app`을 `/Applications`(쓰기 불가 시 `~/Applications`)에 설치한 뒤 실행합니다. 옵션: `--dir <경로>`로 설치 위치 지정, `--no-open`으로 실행 생략.
@@ -134,7 +134,7 @@ src-tauri/target/release/bundle/macos/Dev Cockpit.app
 모든 설정은 JSON 파일 하나에 저장되며 직접 편집하거나 백업할 수 있습니다:
 
 ```
-~/Library/Application Support/com.minseokchae.devcockpit/config.json
+~/Library/Application Support/com.min0504.devcockpit/config.json
 ```
 
 앱은 자신이 쓴 내용만 반영합니다. 파일을 손으로 고쳤다면 앱을 재시작하세요.
@@ -153,6 +153,6 @@ src-tauri/target/release/bundle/macos/Dev Cockpit.app
 
 1. Dev Cockpit 종료 (트레이 메뉴 → Quit).
 2. `Dev Cockpit.app` 삭제.
-3. 원하면 설정도 삭제: `~/Library/Application Support/com.minseokchae.devcockpit/`.
+3. 원하면 설정도 삭제: `~/Library/Application Support/com.min0504.devcockpit/`.
 
 시스템 다른 곳에는 어떤 파일도 만들지 않습니다.
